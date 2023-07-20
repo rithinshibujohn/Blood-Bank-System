@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bloodbank-93657": {
+      "hosting": {
+        "bloodbank": [
+          "bloodbank-93657"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bloodbank-93657"
+  }
+}

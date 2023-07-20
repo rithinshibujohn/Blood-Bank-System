@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<div class="text-bg-warning p-3" >REGISTER TO DONATE BLOOD</div>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="donorregister.component.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input type="text" placeholder="Enter your name" required datatype="name" name="name" [(ngModel)]="name">
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required datatype="username" name="username" [(ngModel)]="username">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required datatype="email" name="email" [(ngModel)]="email">
+          </div>
+          <div class="input-box">
+            <span class="details">Blood Group</span>
+            <input type="text" placeholder="Enter your blood group" required datatype="bloodgroup" name="bloodgroup" [(ngModel)]="bloodgroup">
+          </div>
+          <div class="input-box">
+            <span class="details">Enter Password</span>
+            <input type="text" placeholder="Enter your password" required datatype="password" name="pass" [(ngModel)]="pass">
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required datatype="cpass" name="cpass" [(ngModel)]="cpass">
+          </div>
+        </div>
+        <!-- <div class="gender-details" >
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div> -->
+        
+        <div class="btnDiv">
+        <button (click)="Register()" class="btn btn-primary">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+.navbar-brand
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link active
+{
+    color: white;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: black;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: black;
+}
+.navbar-brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 249, 249);
+}
+.nav-link{
+    font-weight: 200;
+    margin-left: 5px;
+    margin-right: 4px;
+    font-size: medium;
+    color: rgb(255, 247, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+}
+.navbar navbar-expand-lg bg-body-tertiary
+{
+    background-color: black;
+}
+.hello
+{
+   margin-right: 100px;
+}
+.navbar
+{
+    height: 60px;
+    width: 2000px;
+}

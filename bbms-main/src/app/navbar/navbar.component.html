@@ -1,0 +1,43 @@
+<div class="navbar" *ngIf="userEmail">
+  <nav class="navbar navbar-expand-lg bg-body-primary" style="background-color: #bd2222;" >
+  <a class="navbar-brand" href="#"><img src="../../assets/syringe_1f489.png" alt="" height="5%" width="10%"> Blood Donor Management System</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="">HOME<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="bloodbank">BLOOD TYPES</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLink="request">REQUEST</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" routerLink="contact">CONTACT</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          ACCOUNT
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="donorregister">Register to Donate</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" routerLink="login">Login</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" routerLink="request">Request for blood</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="faq">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="works">BLOOD BANKS</a>
+      </li>
+      <button class="btn btn-outline-danger" type="submit" (click)="signout()">SIGNOUT</button>
+    </ul>
+  </div>
+</nav>
+</div>

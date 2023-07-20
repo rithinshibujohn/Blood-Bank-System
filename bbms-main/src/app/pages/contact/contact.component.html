@@ -1,0 +1,25 @@
+<div class="text-bg-warning p-3" ></div>
+<div class="contactnm">
+    <section id="contact">
+	<div class="sectionheader">	<h1>CONTACT</h1></div>
+	<article>
+	<p>Address :   Blood Donor Control Centre <br>
+	  Mattoor, Kalady.P.O, Angamaly <br>
+    Ernakulam District <br>
+    Ph : 9400280506
+	</p>
+		
+			<label for="checkcontact" class="contactbutton">Click to Expand Contact Form<div class="mail"></div></label><input id="checkcontact" type="checkbox">
+	
+			<form action="" method="post" class="contactform">
+				<p class="input_wrapper"><input type="text" [(ngModel)]="name" name="name"  value=""  id ="contact_nom"><label for="contact_nom">NAME</label></p>
+				<p class="input_wrapper"><input type="text"  [(ngModel)]="email" name="name" value=""  id ="contact_email"><label for="contact_email">EMAIL</label></p>
+				<p class="input_wrapper"><input type="text"  [(ngModel)]="message" name="name" value=""  id ="contact_sujet"><label for="contact_sujet">MESSAGE</label></p>
+				<p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+				<div class="btnDiv">
+				<button type="submit" class="btn btn-primary" (click)="contact()">Submit</button>
+				</div>			
+			</form>
+	</article>
+</section>
+</div>

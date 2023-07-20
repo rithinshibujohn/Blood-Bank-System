@@ -1,0 +1,66 @@
+<br><div class="wrapper">
+	<div class="registration_form">
+		<div class="title">
+			REQUEST FOR BLOOD
+		</div>
+
+		<form>
+			<div class="form_wrap">
+				<div class="input_grp">
+					<div class="input_wrap">
+						<label for="fname">First Name</label>
+						<input type="text" [(ngModel)]="fname" name="fname" id="fname">
+					</div>
+					<div class="input_wrap">
+						<label for="lname">Last Name</label>
+						<input type="text" [(ngModel)]="lname" name="lname" id="lname">
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="email">Email Address</label>
+					<input type="text" [(ngModel)]="email" name="email" id="email">
+				</div>
+				<div class="input_wrap">
+					<label>Gender</label>
+					<ul>
+						<li>
+							<label class="radio_wrap">
+								<input type="radio" name="gender" value="male" class="input_radio" checked [(ngModel)]="gender" name="gender">
+								<span>Male</span>
+							</label>
+						</li>
+						<li>
+							<label class="radio_wrap">
+								<input type="radio" name="gender" value="female" class="input_radio" [(ngModel)]="gender" name="gender">
+								<span>Female</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="input_wrap">
+					<label for="city">City</label>
+					<input type="text" [(ngModel)]="city" name="city" id="city">
+				</div>
+				<div class="input_wrap">
+					<label for="country">Blood Type</label>
+					<input type="text" [(ngModel)]="bloodtype" name="bloodtype" id="country">
+				</div>
+				
+				
+				<div class="input_wrap">
+					<label for="country">Blood Units Needed</label>
+					<input type="text" [(ngModel)]="bloodunits" name="bloodunits" id="country">
+				</div>
+				<div class="input_wrap">
+					<label for="country">Phone No</label>
+					<input type="text" [(ngModel)]="phone" name="phone" id="country">
+				</div>
+				<div class="input_wrap">
+					<div class="btnDiv">
+					 <button (click)="request()" class="btn btn-primary">Register</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
